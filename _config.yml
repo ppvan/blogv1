@@ -1,5 +1,5 @@
 url: "https://ppvan.me/" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 title: "Phạm Văn Phúc" # the name of your site, e.g. ACME Corp.
 # permalink: /:title/ # the permalink format for your site, e.g. date
 
