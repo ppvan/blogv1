@@ -1,0 +1,46 @@
+---
+---
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav_link {
+    @apply text-lg text-[#9e98f2] p-2 first:pl-0;
+}
+
+a.link {
+    @apply text-violet-600 underline hover:text-violet-600;
+}
+
+.current {
+    @apply font-extrabold underline;
+}
+
+/* Mark down theme section */
+
+#main p {
+    @apply text-slate-400 font-source text-lg my-8;
+}
+
+#main h1 {
+    @apply text-slate-50 font-source text-3xl;
+}
+
+#main h2 {
+    @apply text-slate-50 font-source text-2xl;
+}
+
+#main h3 {
+    @apply text-slate-50 font-source text-xl;
+}
+
+#main h4 {
+    @apply text-slate-50 font-source text-lg;
+}
+
+#main a {
+    @apply text-[#9e98f2] underline;
+}
+
+/* End mark down theme section */

@@ -1,0 +1,19 @@
+<nav class="flex justify-between">
+    <div id="menu" class="flex-grow flex flex-col justify-start">
+        <h1 class="text-slate-100 py-2 text-[2.1rem] font-semibold">Phạm Văn Phúc</h1>
+        <div id="links" class="flex w-1/2 justify-between">
+            {% for item in site.data.navigation %}
+            {% if page.url == item.url %}
+            <a class="nav_link current" href="{{ item.url }}">{{ item.name }}</a>
+            {% else %}
+            <a class="nav_link" href="{{ item.url }}">{{ item.name }}</a>
+            {% endif %}
+            {% endfor %}
+
+            <a class="nav_link" target="_blank" href="https://github.com/ppvan">Github</a>
+        </div>
+    </div>
+    <div class="profile">
+        <img class="max-w-xs w-32 rounded-full" src="https://avatars.githubusercontent.com/ppvan" alt="">
+    </div>
+</nav>

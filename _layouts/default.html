@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ site.title }}</title>
+    <link rel="icon" type="image/x-icon" href="https://avatars.githubusercontent.com/ppvan">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/tailwind.css' | relative_url }}">
+</head>
+
+<body class="bg-[#111111] text-violet-50 flex pt-3 font-source">
+    <div class="w-1/2 m-auto">
+        {% include navigation.html %}
+        <div id="main">
+            {{ content }}
+        </div>
+    </div>
+
+</body>
+
+</html>
