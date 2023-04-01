@@ -11,6 +11,7 @@ module.exports = {
         extend: {
             fontFamily: {
                 'source': ['"Source Sans Pro"', 'sans-serif'],
+                'code': ['"Source Code Pro"', 'monospace'],
             },
         },
     },

@@ -6,5 +6,13 @@ title: "Phạm Văn Phúc" # the name of your site, e.g. ACME Corp.
 plugins:
   - jekyll-postcss
 
+highlighter: rouge
+markdown: kramdown
+
+kramdown:
+  syntax_highlighter: rouge
+  input: GFM
+
+
 postcss:
   cache: false

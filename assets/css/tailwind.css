@@ -5,6 +5,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+
 .nav_link {
     @apply text-lg text-[#9e98f2] p-2 first:pl-0;
 }
@@ -19,28 +23,78 @@ a.link {
 
 /* Mark down theme section */
 
+
+#main hr {
+    @apply border-slate-700 border-spacing-4 border my-3;
+}
+
 #main p {
-    @apply text-slate-400 font-source text-lg my-8;
+    @apply text-slate-400 font-source text-lg;
 }
 
 #main h1 {
-    @apply text-slate-50 font-source text-3xl;
+    @apply text-slate-200 font-bold font-source text-3xl my-4;
 }
 
 #main h2 {
-    @apply text-slate-50 font-source text-2xl;
+    @apply text-slate-300 font-semibold font-source text-2xl my-3;
 }
 
 #main h3 {
-    @apply text-slate-50 font-source text-xl;
+    @apply text-slate-300 font-source text-xl my-2;
 }
 
 #main h4 {
-    @apply text-slate-50 font-source text-lg;
+    @apply text-slate-300 font-source text-lg my-1;
+}
+
+#main h5 {
+    @apply text-slate-300 font-source text-base;
 }
 
 #main a {
     @apply text-[#9e98f2] underline;
+}
+
+#main blockquote {
+    @apply bg-transparent opacity-80 border-l-4 border-[#34495e] pl-4 my-4;
+}
+
+#main div.highlight {
+    @apply rounded-lg bg-[#13191d] p-1 font-code my-4;
+}
+
+#main pre.highlight {
+    @apply bg-transparent p-1;
+}
+
+
+#main .highlight code, .highlight pre {
+    @apply font-code bg-transparent text-lg;
+}
+
+#main code {
+    @apply bg-[#13191d] rounded-lg px-2 py-1;
+}
+
+#main img {
+    @apply rounded-lg my-4 block m-auto;
+}
+
+#main ul {
+    @apply list-disc pl-8;
+}
+
+#main li {
+    @apply text-slate-400 font-source text-lg;
+}
+
+#main ol {
+    @apply list-decimal pl-8;
+}
+
+#main ::selection {
+    @apply bg-[#3b5065] bg-opacity-70;
 }
 
 /* End mark down theme section */
