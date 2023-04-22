@@ -7,7 +7,7 @@ permalink: /portfolio
 <br>
 
 ### CV
->My CV in PDF format, can be found [here](assets/docs/Phạm Văn Phúc_CV.pdf).
+>My CV in PDF format, can be found [here](assets/docs/CV.pdf).
 
 ---
 
