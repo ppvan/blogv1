@@ -19,10 +19,10 @@ jobs:
           ruby-version: '3.0'
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
 
-      # - name: Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
-      #   run: |
-      #     npm install
-      #     JEKYLL_ENV=production bundle exec jekyll build
+      - name: Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
+        run: |
+          npm install
+          bundle exec jekyll build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
