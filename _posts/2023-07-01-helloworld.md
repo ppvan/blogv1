@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Hello world"
+title:  "Hello world update 1"
 ---
 
 # Welcome
