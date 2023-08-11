@@ -27,7 +27,8 @@ jobs:
         with:
           enable_cache: true
           jekyll_env: production
-
+      - name: Copy flatpak
+        run: cp -r .well-known _site/
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
